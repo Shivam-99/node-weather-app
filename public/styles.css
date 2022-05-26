@@ -1,0 +1,37 @@
+body {
+  width: 700px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+header h1 {
+  font-size: 40px;
+  width: fit-content;
+  margin: auto;
+}
+header .links {
+  width: fit-content;
+  margin: auto;
+}
+header a {
+  margin-right: 16px;
+  text-decoration: none;
+  color: #888888;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+footer {
+    padding-top: 16px;
+  color: grey;
+}
